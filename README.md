@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://haavga.github.io/NFT-card-component-with-Tailwind-CSS/)
+- Live Site URL: [NFT Card Component with Tailwind CSS](https://haavga.github.io/NFT-card-component-with-Tailwind-CSS/)
 
 ## My process
 
@@ -48,9 +48,9 @@ Project went fine until I was going to add the hover state to the image. Figured
 ```html
 <div class="group">
   <div
-    class="invisible hover:cursor-pointer group-hover:visible absolute w-[20.5rem] h-[20.5rem] rounded-lg bg-primary-100/50 left-7 top-7 flex items-center justify-center"
+    class="bg-primary-100/50 invisible absolute left-7 top-7 flex h-[20.5rem] w-[20.5rem] items-center justify-center rounded-lg hover:cursor-pointer group-hover:visible"
   >
-    <img class="w-12 h-12" src="../images/icon-view.svg" alt="eye" />
+    <img class="h-12 w-12" src="../images/icon-view.svg" alt="eye" />
   </div>
   <img
     class="rounded-lg"
