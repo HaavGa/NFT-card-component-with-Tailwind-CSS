@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="../dist/output.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body
+    class="flex flex-col items-center justify-center h-screen bg-neutral-300 font-main"
+  >
+    <div
+      class="relative flex flex-col max-w-sm space-y-3 shadow-2xl p-7 m-7 bg-neutral-200 rounded-3xl"
+    >
+      <div class="group">
+        <div
+          class="invisible hover:cursor-pointer group-hover:visible absolute w-[20.5rem] h-[20.5rem] rounded-lg bg-primary-100/50 left-7 top-7 flex items-center justify-center"
+        >
+          <img class="w-12 h-12" src="../images/icon-view.svg" alt="eye" />
+        </div>
+        <img
+          class="rounded-lg"
+          src="../images/image-equilibrium.jpg"
+          alt="equilibrium"
+        />
+      </div>
+      <p
+        class="pt-2 text-2xl font-semibold text-white cursor-pointer w-[12.4rem] hover:text-primary-100"
+      >
+        Equilibrium #3429
+      </p>
+      <p class="text-lg tracking-tight text-primary-200/70">
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="flex justify-between py-2">
+        <div class="flex items-center font-semibold text-primary-100">
+          <span class="mr-2"
+            ><img src="../images/icon-ethereum.svg" alt=""
+          /></span>
+          0.041 ETH
+        </div>
+        <div class="flex items-center text-primary-200 font-extralight">
+          <span class="mr-2"
+            ><img src="../images/icon-clock.svg" alt=""
+          /></span>
+          3 days left
+        </div>
+      </div>
+      <div class="h-[1px] w-full bg-neutral-100"></div>
+      <div class="flex items-center py-1 space-x-3">
+        <img
+          class="border rounded-full h-9"
+          src="../images/image-avatar.png"
+          alt="Jules Wyvern"
+        />
+        <p class="text-primary-200">
+          Creation of
+          <span class="text-white cursor-pointer hover:text-primary-100"
+            >Jules Wyvern</span
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="https://github.com/HaavGa">Håvard Garsrud</a>.
+    </div>
+  </body>
+</html>
