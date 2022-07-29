@@ -68,8 +68,8 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./src/style.css -o ./dist/output.css",
-    "watch": "npx tailwindcss -i ./src/style.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./docs/style.css -o ./dist/output.css",
+    "watch": "npx tailwindcss -i ./docs/style.css -o ./dist/output.css --watch"
   },
   "author": "Håvard Garsrud",
   "license": "ISC"
