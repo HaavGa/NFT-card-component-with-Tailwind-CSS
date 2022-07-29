@@ -16,16 +16,16 @@
     <title>Frontend Mentor | NFT preview card component</title>
   </head>
   <body
-    class="flex flex-col items-center justify-center h-screen bg-neutral-300 font-main"
+    class="font-main flex h-screen flex-col items-center justify-center bg-neutral-300"
   >
     <div
-      class="relative flex flex-col max-w-sm space-y-3 shadow-2xl p-7 m-7 bg-neutral-200 rounded-3xl"
+      class="relative m-7 flex max-w-sm flex-col space-y-3 rounded-3xl bg-neutral-200 p-7 shadow-2xl"
     >
       <div class="group">
         <div
-          class="invisible hover:cursor-pointer group-hover:visible absolute w-[20.5rem] h-[20.5rem] rounded-lg bg-primary-100/50 left-7 top-7 flex items-center justify-center"
+          class="bg-primary-100/50 invisible absolute left-7 top-7 flex h-[20.5rem] w-[20.5rem] items-center justify-center rounded-lg hover:cursor-pointer group-hover:visible"
         >
-          <img class="w-12 h-12" src="../images/icon-view.svg" alt="eye" />
+          <img class="h-12 w-12" src="../images/icon-view.svg" alt="eye" />
         </div>
         <img
           class="rounded-lg"
@@ -34,21 +34,21 @@
         />
       </div>
       <p
-        class="pt-2 text-2xl font-semibold text-white cursor-pointer w-[12.4rem] hover:text-primary-100"
+        class="hover:text-primary-100 w-[12.4rem] cursor-pointer pt-2 text-2xl font-semibold text-white"
       >
         Equilibrium #3429
       </p>
-      <p class="text-lg tracking-tight text-primary-200/70">
+      <p class="text-primary-200/70 text-lg tracking-tight">
         Our Equilibrium collection promotes balance and calm.
       </p>
       <div class="flex justify-between py-2">
-        <div class="flex items-center font-semibold text-primary-100">
+        <div class="text-primary-100 flex items-center font-semibold">
           <span class="mr-2"
             ><img src="../images/icon-ethereum.svg" alt=""
           /></span>
           0.041 ETH
         </div>
-        <div class="flex items-center text-primary-200 font-extralight">
+        <div class="text-primary-200 flex items-center font-extralight">
           <span class="mr-2"
             ><img src="../images/icon-clock.svg" alt=""
           /></span>
@@ -56,22 +56,22 @@
         </div>
       </div>
       <div class="h-[1px] w-full bg-neutral-100"></div>
-      <div class="flex items-center py-1 space-x-3">
+      <div class="flex items-center space-x-3 py-1">
         <img
-          class="border rounded-full h-9"
+          class="h-9 rounded-full border"
           src="../images/image-avatar.png"
           alt="Jules Wyvern"
         />
         <p class="text-primary-200">
           Creation of
-          <span class="text-white cursor-pointer hover:text-primary-100"
+          <span class="hover:text-primary-100 cursor-pointer text-white"
             >Jules Wyvern</span
           >
         </p>
       </div>
     </div>
 
-    <div class="text-white attribution">
+    <div class="attribution text-white">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
         >Frontend Mentor</a
